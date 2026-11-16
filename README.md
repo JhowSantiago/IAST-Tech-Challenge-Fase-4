@@ -228,7 +228,7 @@ Para evitar alucinações quando não existirem avaliações relevantes ou quand
 │   ├── preprocessing/                          # Limpeza textual, tratamento de nulos e criação de Documents
 │   ├── indexing/                               # Geração de embeddings OpenAI e persistência FAISS
 │   └── rag/                                    # Transformação Multi-Query, busca semântica e geração fundamentada
-├── tests/                                      # Suíte automatizada de testes unitários e de contrato
+├── tests/                                      # Suíte automatizada de testes unitários do pipeline
 ├── .env.example                                # Template de variáveis de ambiente
 ├── .gitignore                                  # Regras de exclusão do Git (.venv, .env, caches)
 ├── pytest.ini                                  # Configuração do Pytest
