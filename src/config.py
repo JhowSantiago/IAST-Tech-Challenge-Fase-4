@@ -13,9 +13,8 @@ except Exception:
 
 from dotenv import load_dotenv
 
-load_dotenv()
-
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(PROJECT_ROOT / ".env")
 DATA_DIR = PROJECT_ROOT / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
 PROCESSED_DATA_DIR = DATA_DIR / "processed"
@@ -38,7 +37,7 @@ class RAGConfig:
     chat_model: str = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini")
     top_k: int = int(os.getenv("RAG_TOP_K", "5"))
     multi_query_count: int = int(os.getenv("RAG_MULTI_QUERY_COUNT", "3"))
-    relevance_threshold: float = float(os.getenv("RAG_RELEVANCE_THRESHOLD", "0.30"))
+    relevance_threshold: float = float(os.getenv("RAG_RELEVANCE_THRESHOLD", "0.45"))
     min_evidence_docs: int = 1
     temperature: float = 0.0
 

@@ -12,13 +12,14 @@ MULTI_QUERY_PROMPT = ChatPromptTemplate.from_messages(
     [
         (
             "system",
-            "Você é um especialista em Voice of Customer (VoC) para e-commerce brasileiro. "
-            "Sua tarefa é gerar {num_variations} reformulações de busca semântica para a pergunta do usuário, "
-            "utilizando termos e expressões reais que clientes usam ao escrever avaliações de compras online "
-            "(como elogios, reclamações de prazo, entrega, defeito, qualidade ou atendimento). "
-            "Se a pergunta original estiver totalmente fora do contexto de e-commerce ou avaliações de clientes, "
-            "apenas repita a pergunta original. "
-            "Responda APENAS com as frases de busca, uma por linha, sem numeração e sem comentários adicionais.",
+            "Você é um especialista em recuperação de informação para avaliações de e-commerce. "
+            "Sua tarefa é gerar {num_variations} reformulações semânticas da pergunta do usuário "
+            "preservando ESTRITAMENTE o mesmo tema e assunto da pergunta original. "
+            "REGRA CRÍTICA: NUNCA mude o assunto da pergunta. Se a pergunta original NÃO for sobre "
+            "compras, produtos, entregas, atendimento ou avaliações de clientes (por exemplo, se for sobre "
+            "clima, cotação de moedas, esportes ou fatos gerais), NÃO gere perguntas de e-commerce: "
+            "responda apenas repetindo exatamente a pergunta original em uma única linha. "
+            "Responda APENAS com as frases de busca, uma por linha, sem numeração e sem comentários.",
         ),
         ("human", "Pergunta original: {question}"),
     ]
