@@ -159,27 +159,29 @@ Abaixo estão exemplos reais gerados pelo pipeline e auditados em [reports/rag-e
 ### Exemplo 1 — Reclamações relacionadas à entrega
 - **Pergunta:** *Quais reclamações relacionadas à entrega aparecem com maior frequência?*
 - **Consultas Expandidas (*Multi-Query*):**
-  - `demora na entrega atraso correios produto não chegou no prazo`
-  - `pedido consta como entregue mas não recebi extravio`
-  - `entrega parcial faltou item do pedido`
+  - `Quais são as reclamações mais comuns sobre entregas?`
+  - `Quais tipos de reclamações sobre entrega são mais frequentes?`
+  - `Quais reclamações sobre entrega ocorrem com mais regularidade?`
 - **Evidências Recuperadas (Amostra):**
-  - `[review_id: d7ea05bb4f9c77d606fd90b1a27e317d | Nota: 1/5 | Relevância: 0.864]`: *"Comprei o produto dia 25 de fevereiro e hoje dia 29 de marco não fora entregue na minha residência. Não sei se os correios desse Brasil e péssimo ou foi a própria loja que demorou postar."*
-  - `[review_id: 06f47dacd0575e592bf6a17e922ce6cd | Nota: 1/5 | Relevância: 0.839]`: *"não recebi ainda. aqui está descrevendo como entregue só que ate agora não recebi"*
-  - `[review_id: ae728c1061bf163b4bd256ad9ee0bb83 | Nota: 1/5 | Relevância: 0.812]`: *"Este foi o pedido Balde Com 128 Peças - Blocos De Montar 2 un - R$ 25,00 cada (NÃO FOI ENTREGUE)..."*
+  - `[review_id: 72926e5236768ffc912764ca429d0e00 | Nota: 1/5 | Relevância: 0.699]`: *"Muita demora na entrega"*
+  - `[review_id: 949eca021ed60d00a2d2bda3cc686d4d | Nota: 1/5 | Relevância: 0.654]`: *"muitos desencontros nas entregas de produtos"*
+  - `[review_id: 7528a396f7625967f05cb09946286608 | Nota: 1/5 | Relevância: 0.648]`: *"Ultimamente estão atrasando muito as entregas"*
+  - `[review_id: f242ce44c6572a94907a446b8fda32c8 | Nota: 1/5 | Relevância: 0.638]`: *"Olá! Minha queixa é a não entrega na residência. Tive que buscar no correio. Tenho um produto que foi devolvido, e ainda nem sei o que fazer. Talvez um telefonema ajudasse."*
 - **Resposta Fundamentada:**
-  > Nas avaliações relacionadas à logística e entrega, destacam-se quatro reclamações principais:
-  > 1. **Extrapolar o prazo prometido (mais de 30 dias de espera):** Compras realizadas há mais de um mês sem entrega efetuada na residência `[review_id: d7ea05bb4f9c77d606fd90b1a27e317d, Nota: 1/5]` `[review_id: 185cb85ede91009d7a8e685687c037ee, Nota: 1/5]`.
-  > 2. **Status de rastreamento divergente ('consta como entregue, mas não recebi'):** O sistema registra entrega concluída sem que o cliente tenha recebido o item `[review_id: 06f47dacd0575e592bf6a17e922ce6cd, Nota: 1/5]`.
-  > 3. **Entrega parcial de pedidos com múltiplos itens:** Apenas parte do pedido é entregue enquanto outros produtos faltam `[review_id: ae728c1061bf163b4bd256ad9ee0bb83, Nota: 1/5]`.
-  > 4. **Impacto no planejamento pessoal do cliente:** Atrasos que inviabilizam viagens e compromissos planejados com base na data estimada `[review_id: 6d06808638ec0701bccd70bc8d462c28, Nota: 1/5]`.
+  > As reclamações relacionadas à entrega que aparecem com maior frequência nas avaliações são:
+  > 1. **Demora na entrega:** Vários clientes mencionaram a lentidão no processo de entrega, como *"muita demora na entrega"* `[review_id: 72926e5236768ffc912764ca429d0e00, Nota: 1/5]` e *"ultimamente estão atrasando muito as entregas"* `[review_id: 7528a396f7625967f05cb09946286608, Nota: 1/5]`.
+  > 2. **Desencontros nas entregas:** Problemas de comunicação e organização nas entregas em *"muitos desencontros nas entregas de produtos"* `[review_id: 949eca021ed60d00a2d2bda3cc686d4d, Nota: 1/5]`.
+  > 3. **Não entrega no endereço:** Clientes que não receberam o produto em sua residência e precisaram buscá-lo na agência dos Correios `[review_id: f242ce44c6572a94907a446b8fda32c8, Nota: 1/5]`.
 
 ### Exemplo 2 — Busca por experiências positivas
 - **Pergunta:** *O que os clientes mais elogiam em suas experiências de compra?*
 - **Evidências Recuperadas (Amostra):**
-  - `[review_id: 4940d39efaa50e020312724f6a6e5efa | Nota: 5/5 | Relevância: 0.871]`: *"super recomendo. produto de qualidade e eficiência na entrega. recebi muito antes do combinado. recomendo"*
-  - `[review_id: 5241fcad10d7b45a1761f1e1e1536faa | Nota: 5/5 | Relevância: 0.859]`: *"super recomendo. chegou dentro do prazo e o produto é de excelente qualidade! Acabou as dores nas costas, estou dormindo muito bem!"*
+  - `[review_id: 382d855ffdd4f5e66594dbfb1566e96f | Nota: 5/5 | Relevância: 0.642]`: *"10. Cada vez que compro mais fico satisfeita parabéns pela honestidade com seus clientes 👏👏👏👏?"*
+  - `[review_id: d7571a8910cfc6319c8acbba887fd33b | Nota: 5/5 | Relevância: 0.622]`: *"Nota 10. Comprometimento e dedicação com o cliente.por isso indico pra quem está com alguma dúvida referente a loja;e sobre o produto atingiu perfeitamente as minhas perspectivas."*
+  - `[review_id: f8bc084927f01cb84fce083eb9aa5819 | Nota: 5/5 | Relevância: 0.611]`: *"otimo. Produtos entregues no prazo , corretamente. Certamente comprarei mais vezes."*
+  - `[review_id: a644c23f94b9da0ca04ae1de4538e42a | Nota: 5/5 | Relevância: 0.603]`: *"Nota 10. Gosto muito de comprar online pela lojas lannister sempre com um atendimento excelente nota 10.saudações."*
 - **Resposta Fundamentada:**
-  > Os consumidores mais elogiam: (1) **Antecipação do prazo de entrega**, recebendo a mercadoria bem antes da data combinada `[review_id: 4940d39efaa50e020312724f6a6e5efa, Nota: 5/5]` `[review_id: fe3db7c069d694bab50cc43463f91608, Nota: 5/5]`; (2) **Qualidade superior e utilidade prática do produto** `[review_id: 5241fcad10d7b45a1761f1e1e1536faa, Nota: 5/5]`; e (3) **Atendimento eficiente e confiabilidade do vendedor** `[review_id: 07b48dbc11677f5021dbefcaba550ed2, Nota: 5/5]`.
+  > Os clientes elogiam principalmente: (1) **Honestidade e satisfação recorrente** `[review_id: 382d855ffdd4f5e66594dbfb1566e96f, Nota: 5/5]`; (2) **Comprometimento com o cliente e aderência às expectativas** `[review_id: d7571a8910cfc6319c8acbba887fd33b, Nota: 5/5]`; (3) **Pontualidade na entrega** `[review_id: f8bc084927f01cb84fce083eb9aa5819, Nota: 5/5]`; e (4) **Atendimento excelente** `[review_id: a644c23f94b9da0ca04ae1de4538e42a, Nota: 5/5]`.
 
 ---
 

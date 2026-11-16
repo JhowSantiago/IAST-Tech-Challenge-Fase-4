@@ -5,57 +5,57 @@
     "refusal_reason": null,
     "expanded_queries": [
       "Quais são os principais problemas relatados pelos clientes em suas avaliações?",
-      "principais reclamações de clientes defeito atraso produto errado",
-      "motivos de insatisfação problemas na compra entrega e qualidade",
-      "relatos negativos recorrentes pedido incompleto ou avariado"
+      "Quais são os problemas mais comuns mencionados pelos clientes em suas avaliações?",
+      "Quais dificuldades os clientes costumam relatar em suas avaliações?",
+      "Quais são as queixas mais frequentes dos clientes nas avaliações?"
     ],
     "retrieved_count": 5,
-    "answer": "Com base nas avaliações recuperadas na base da Olist, os principais problemas relatados pelos clientes concentram-se em quatro frentes recorrentes:\n\n1. **Atrasos e descumprimento do prazo de entrega:** Clientes relatam pedidos que ultrapassam o prazo máximo estipulado sem recebimento, gerando transtornos pessoais [review_id: 58044bca115705a48fe0e00a21390c54, Nota: 1/5] [review_id: 6d06808638ec0701bccd70bc8d462c28, Nota: 1/5].\n2. **Entrega incompleta ou avaria física:** Há registros de pedidos entregues faltando itens adquiridos e com peças quebradas no transporte [review_id: c40a6b6e0181e5ec0d12cbc2e12c49d3, Nota: 1/5].\n3. **Divergência entre o produto anunciado e o recebido:** Consumidores apontam o envio de modelos, cores ou materiais inferiores e diferentes da foto do anúncio [review_id: 6f885e2fd69412264d9e500b1c7ae4b0, Nota: 1/5].\n4. **Defeito funcional e falha no pós-venda/reembolso:** Relatos de produtos que apresentam defeito logo no primeiro uso ou ausência de retorno e ressarcimento após devolução pelos Correios [review_id: 2d0d80576ee9bbab49cc108d9ec7a0fb, Nota: 1/5].",
+    "answer": "Os principais problemas relatados pelos clientes em suas avaliações incluem:\n\n1. **Falta de produtos**: Um cliente mencionou que recebeu apenas um dos dois itens comprados, afirmando que \"Veio faltando produto\" [review_id: facaaf5d1ea43d6ead5d1288fb8eed21, Nota: 1/5]. Essa questão de falta de itens na entrega é um ponto crítico para a satisfação do cliente.\n\n2. **Desencontros nas entregas**: Outro cliente relatou \"muitos desencontros nas entregas de produtos\" [review_id: 949eca021ed60d00a2d2bda3cc686d4d, Nota: 1/5], indicando problemas na logística e na pontualidade das entregas.\n\n3. **Não recebimento de produtos**: Um cliente expressou insatisfação ao afirmar que não recebeu o produto, apesar de ter utilizado o site por muitos anos e ter tido boas experiências anteriormente. Ele comentou: \"mas dessa vez não recebi, por isso a avaliação negativa\" [review_id: 2b2a270315cee9d67f55a02c96cce8ee, Nota: 1/5].\n\n4. **Problemas com a qualidade de alguns produtos**: Um cliente mencionou que, embora tenha comprado vários produtos, alguns apresentaram problemas, afirmando: \"Comprei vários produtos alguns ótimo mas alguns. Com problemas\" [review_id: 4dcdbd92efbddf89c6ece8d3b0cb6ad6, Nota: 3/5]. Isso sugere que a qualidade dos produtos pode ser inconsistente.\n\nEsses pontos refletem preocupações significativas que podem impactar a experiência de compra dos clientes.",
     "evidences": [
       {
-        "review_id": "58044bca115705a48fe0e00a21390c54",
-        "order_id": "68e55ca79d04a79f20d4bfc0146f4b66",
-        "review_score": 1,
-        "review_creation_date": "2018-04-08",
-        "relevance_score": 0.8421,
-        "matched_query": "motivos de insatisfação problemas na compra entrega e qualidade",
-        "text": "Sempre compro pela Internet e a entrega ocorre antes do prazo combinado, que acredito ser o prazo máximo. No stark o prazo máximo já se esgotou e ainda não recebi o produto."
+        "review_id": "187d9ab9b22f8c61bd3534daa93913c6",
+        "order_id": "e4ce7e9f0b81f2de2415e30494021d2c",
+        "review_score": 5,
+        "review_creation_date": "2018-06-05",
+        "relevance_score": 0.5385,
+        "matched_query": "Quais são os problemas mais comuns mencionados pelos clientes em suas avaliações?",
+        "text": "muito satisfeita. sou cliente há muito tempo, nunca tive problemas."
       },
       {
-        "review_id": "c40a6b6e0181e5ec0d12cbc2e12c49d3",
-        "order_id": "f3468d6a2c7586711e9952242898aad4",
+        "review_id": "facaaf5d1ea43d6ead5d1288fb8eed21",
+        "order_id": "44ea86700a44cf863db3616415b5f9ad",
         "review_score": 1,
-        "review_creation_date": "2018-05-23",
-        "relevance_score": 0.8315,
-        "matched_query": "relatos negativos recorrentes pedido incompleto ou avariado",
-        "text": "falta de produto e quebra. Faltou 1 produto e os que recebi 1 veio quebrado"
+        "review_creation_date": "2018-05-04",
+        "relevance_score": 0.5067,
+        "matched_query": "Quais são os principais problemas relatados pelos clientes em suas avaliações?",
+        "text": "Faltando produto. Veio faltando produto Comprei 2 cortinas e só veio 1 Quando resolver o problema mudo minha avaliação."
       },
       {
-        "review_id": "6f885e2fd69412264d9e74e805175d53",
-        "order_id": "108e1d5b7a25ff07b49e500b1c7ae4b0",
+        "review_id": "949eca021ed60d00a2d2bda3cc686d4d",
+        "order_id": "d5d78aa1e1666a81b03bd8791c865fd3",
         "review_score": 1,
-        "review_creation_date": "2017-06-22",
-        "relevance_score": 0.8194,
-        "matched_query": "principais reclamações de clientes defeito atraso produto errado",
-        "text": "Recebi bem rápido, porém veio outro produto, e não o que eu pedi, o modelo veio diferente, a cor, veio uma capinha que não tem zíper, enfim, não recomendo."
+        "review_creation_date": "2017-06-07",
+        "relevance_score": 0.5053,
+        "matched_query": "Quais são os principais problemas relatados pelos clientes em suas avaliações?",
+        "text": "muitos desencontros nas entregas de produtos"
       },
       {
-        "review_id": "2d0d80576ee9bbab49cc108d9ec7a0fb",
-        "order_id": "475f773f6c0d909e49b758adb2401e3a",
+        "review_id": "2b2a270315cee9d67f55a02c96cce8ee",
+        "order_id": "2868122766fb8490193dc08920622c8b",
         "review_score": 1,
-        "review_creation_date": "2017-02-21",
-        "relevance_score": 0.8082,
-        "matched_query": "principais reclamações de clientes defeito atraso produto errado",
-        "text": "meu produto veio com defeito,devolvi conforme informado.postado no correio conforme indicado.e até hoje não recebi nenhuma notificação da empresa quanto a devolução e análise para ter meuressarcimento"
+        "review_creation_date": "2018-08-29",
+        "relevance_score": 0.5048,
+        "matched_query": "Quais dificuldades os clientes costumam relatar em suas avaliações?",
+        "text": "negativa. utilizo o site das amaericanas a muitos anos, sempre tive um bom retorno, as vezes demora,mas os produtos chegam sempre embalados. mas dessa vez não recebi, por isso a avaliação negativa."
       },
       {
-        "review_id": "6d06808638ec0701bccd70bc8d462c28",
-        "order_id": "97d2f8fe76f2f253b8291e17b5383884",
-        "review_score": 1,
-        "review_creation_date": "2016-12-09",
-        "relevance_score": 0.7965,
-        "matched_query": "motivos de insatisfação problemas na compra entrega e qualidade",
-        "text": "O produto não chegou no prazo estipulado e causou transtorno, pq programei a viagem de férias do meu filho, baseado no prazo. Moro na Bahia e ele em Cuiabá sozinho. Agora, a casa está vazia."
+        "review_id": "4dcdbd92efbddf89c6ece8d3b0cb6ad6",
+        "order_id": "2e454cf4f81bec04aa0e7192f8252790",
+        "review_score": 3,
+        "review_creation_date": "2017-03-25",
+        "relevance_score": 0.5006,
+        "matched_query": "Quais são os principais problemas relatados pelos clientes em suas avaliações?",
+        "text": "Comprei vários produtos alguns ótimo mas alguns. Com problemas"
       }
     ]
   },
@@ -65,57 +65,57 @@
     "refusal_reason": null,
     "expanded_queries": [
       "Quais reclamações relacionadas à entrega aparecem com maior frequência?",
-      "demora na entrega atraso correios produto não chegou no prazo",
-      "pedido consta como entregue mas não recebi extravio",
-      "entrega parcial faltou item do pedido"
+      "Quais são as reclamações mais comuns sobre entregas?",
+      "Quais tipos de reclamações sobre entrega são mais frequentes?",
+      "Quais reclamações sobre entrega ocorrem com mais regularidade?"
     ],
     "retrieved_count": 5,
-    "answer": "Nas avaliações relacionadas à logística e entrega, destacam-se quatro reclamações principais:\n\n1. **Extrapolar o prazo prometido (mais de 30 dias de espera):** Clientes relatam compras realizadas há mais de um mês sem entrega efetuada na residência, questionando tanto a postagem pela loja quanto o serviço dos Correios [review_id: d7ea05bb4f9c77d606fd90b1a27e317d, Nota: 1/5] [review_id: 185cb85ede91009d7a8e685687c037ee, Nota: 1/5].\n2. **Status de rastreamento divergente ('consta como entregue, mas não recebi'):** O sistema aponta a conclusão da entrega, porém o consumidor afirma não ter recebido a mercadoria [review_id: 06f47dacd0575e592bf6a17e922ce6cd, Nota: 1/5].\n3. **Entrega parcial de pedidos com múltiplos itens:** Em pedidos com mais de um produto, apenas parte é entregue enquanto outros itens não chegam [review_id: ae728c1061bf163b4bd256ad9ee0bb83, Nota: 1/5].\n4. **Impacto no planejamento pessoal do cliente:** O descumprimento da data estimada frustra compromissos planejados em função do prazo informado no ato da compra [review_id: 6d06808638ec0701bccd70bc8d462c28, Nota: 1/5].",
+    "answer": "As reclamações relacionadas à entrega que aparecem com maior frequência nas avaliações são:\n\n1. **Demora na entrega**: Vários clientes mencionaram a lentidão no processo de entrega. Por exemplo, um cliente afirmou que houve \"muita demora na entrega\" [review_id: 72926e5236768ffc912764ca429d0e00, Nota: 1/5]. Outro comentário destaca que \"ultimamente estão atrasando muito as entregas\" [review_id: 7528a396f7625967f05cb09946286608, Nota: 1/5].\n\n2. **Desencontros nas entregas**: Há também relatos sobre problemas de comunicação e organização nas entregas. Um cliente comentou sobre \"muitos desencontros nas entregas de produtos\" [review_id: 949eca021ed60d00a2d2bda3cc686d4d, Nota: 1/5].\n\n3. **Não entrega no endereço**: Um cliente expressou sua insatisfação ao relatar que não recebeu o produto em sua residência e teve que buscá-lo no correio, mencionando que \"tive que buscar no correio\" [review_id: f242ce44c6572a94907a446b8fda32c8, Nota: 1/5].\n\nEssas evidências indicam que a insatisfação dos clientes está fortemente ligada à ineficiência no serviço de entrega.",
     "evidences": [
       {
-        "review_id": "d7ea05bb4f9c77d606fd90b1a27e317d",
-        "order_id": "bb5b0d8f3e9c964760c674f2aa2ae0cf",
+        "review_id": "72926e5236768ffc912764ca429d0e00",
+        "order_id": "1d6df969542603d9f097e871bff9a9b7",
         "review_score": 1,
-        "review_creation_date": "2018-03-29",
-        "relevance_score": 0.8642,
-        "matched_query": "demora na entrega atraso correios produto não chegou no prazo",
-        "text": "Comprei o produto dia 25 de fevereiro e hoje dia 29 de marco não fora entregue na minha residência. Não sei se os correios desse Brasil e péssimo ou foi a própria loja que demorou postar."
+        "review_creation_date": "2018-03-09",
+        "relevance_score": 0.6992,
+        "matched_query": "Quais são as reclamações mais comuns sobre entregas?",
+        "text": "Muita demora na entrega"
       },
       {
-        "review_id": "185cb85ede91009d7a8e685687c037ee",
-        "order_id": "2e5dc86c8c4aa663549caf5e31de840d",
+        "review_id": "949eca021ed60d00a2d2bda3cc686d4d",
+        "order_id": "d5d78aa1e1666a81b03bd8791c865fd3",
         "review_score": 1,
-        "review_creation_date": "2017-04-06",
-        "relevance_score": 0.851,
-        "matched_query": "demora na entrega atraso correios produto não chegou no prazo",
-        "text": "fiz minha compra faz 30 dias e não recebi ainda meu produto. Precisa melhorar nas entregas"
+        "review_creation_date": "2017-06-07",
+        "relevance_score": 0.6535,
+        "matched_query": "Quais são as reclamações mais comuns sobre entregas?",
+        "text": "muitos desencontros nas entregas de produtos"
       },
       {
-        "review_id": "06f47dacd0575e592bf6a17e922ce6cd",
-        "order_id": "82348f1b5f24ac795fa9320e02c49553",
+        "review_id": "7528a396f7625967f05cb09946286608",
+        "order_id": "1777854e00599d581f88f45af1432949",
         "review_score": 1,
-        "review_creation_date": "2018-06-28",
-        "relevance_score": 0.8388,
-        "matched_query": "pedido consta como entregue mas não recebi extravio",
-        "text": "não recebi ainda. aqui está descrevendo como entregue só que ate agora não recebi"
+        "review_creation_date": "2018-03-30",
+        "relevance_score": 0.6479,
+        "matched_query": "Quais são as reclamações mais comuns sobre entregas?",
+        "text": "Ultimamente estão atrasando muito as entregas"
       },
       {
-        "review_id": "ae728c1061bf163b4bd256ad9ee0bb83",
-        "order_id": "45c780334bc32cb77559a65c5f171160",
-        "review_score": 1,
-        "review_creation_date": "2018-01-04",
-        "relevance_score": 0.812,
-        "matched_query": "entrega parcial faltou item do pedido",
-        "text": "Este foi o pedido Balde Com 128 Peças - Blocos De Montar 2 un - R$ 25,00 cada (NÃO FOI ENTREGUE) Vendido e entregue targaryen Tapete de Eva Nº Letras 36 Peças Crianças 1 un - R$ 35,90 (ESTE FOI ENTREG"
+        "review_id": "214deaabf69eb3d26c7bae540e03d1b2",
+        "order_id": "2ea830e178fb91c939722e9cb085383b",
+        "review_score": 2,
+        "review_creation_date": "2018-03-14",
+        "relevance_score": 0.6385,
+        "matched_query": "Quais são as reclamações mais comuns sobre entregas?",
+        "text": "Demora demasiada na entrega"
       },
       {
-        "review_id": "6d06808638ec0701bccd70bc8d462c28",
-        "order_id": "97d2f8fe76f2f253b8291e17b5383884",
+        "review_id": "f242ce44c6572a94907a446b8fda32c8",
+        "order_id": "714fb133a6730ab81fa1d3c1b2007291",
         "review_score": 1,
-        "review_creation_date": "2016-12-09",
-        "relevance_score": 0.8045,
-        "matched_query": "demora na entrega atraso correios produto não chegou no prazo",
-        "text": "O produto não chegou no prazo estipulado e causou transtorno, pq programei a viagem de férias do meu filho, baseado no prazo. Moro na Bahia e ele em Cuiabá sozinho. Agora, a casa está vazia."
+        "review_creation_date": "2018-03-02",
+        "relevance_score": 0.6383,
+        "matched_query": "Quais são as reclamações mais comuns sobre entregas?",
+        "text": "Olá! Minha queixa é a não entrega na residência. Tive que buscar no correio. Tenho um produto que foi devolvido, e ainda nem sei o que fazer. Talvez um telefonema ajudasse."
       }
     ]
   },
@@ -125,57 +125,57 @@
     "refusal_reason": null,
     "expanded_queries": [
       "O que os clientes mais elogiam em suas experiências de compra?",
-      "elogios entrega rápida antes do prazo excelente qualidade recomendo",
-      "satisfação com o produto bom atendimento vendedor confiável",
-      "compra fácil chegou perfeito superou expectativas"
+      "Quais aspectos das experiências de compra são mais elogiados pelos clientes?",
+      "O que os consumidores destacam positivamente em suas compras?",
+      "Quais são os principais elogios dos clientes em relação às suas experiências de compra?"
     ],
     "retrieved_count": 5,
-    "answer": "As avaliações positivas (nota 5/5) demonstram que os aspectos mais valorizados pelos consumidores são:\n\n1. **Antecipação do prazo de entrega:** O fator mais elogiado é o recebimento do pedido antes ou muito antes da data limite combinada [review_id: fe3db7c069d694bab50cc43463f91608, Nota: 5/5] [review_id: 4940d39efaa50e020312724f6a6e5efa, Nota: 5/5].\n2. **Qualidade superior e utilidade prática do produto:** Clientes destacam materiais de excelente qualidade e desempenho funcional sem problemas [review_id: 5241fcad10d7b45a1761f1e1e1536faa, Nota: 5/5] [review_id: 8055e963f26f70c406ca517b2c2848e6, Nota: 5/5].\n3. **Atendimento e confiabilidade do vendedor:** O cumprimento integral do contratado, a facilidade na jornada de compra e a atenção no atendimento geram recomendações explícitas [review_id: 07b48dbc11677f5021dbefcaba550ed2, Nota: 5/5] [review_id: fe3db7c069d694bab50cc43463f91608, Nota: 5/5].",
+    "answer": "Os clientes elogiam principalmente a honestidade e o comprometimento da loja, além da qualidade do atendimento e a pontualidade na entrega dos produtos. \n\n1. **Honestidade e Satisfação**: Um cliente destaca a \"honestidade com seus clientes\", expressando satisfação em suas compras repetidas [review_id: 382d855ffdd4f5e66594dbfb1566e96f, Nota: 5/5].\n\n2. **Comprometimento com o Cliente**: Outro cliente menciona o \"comprometimento e dedicação com o cliente\", indicando que a loja atendeu suas expectativas em relação ao produto [review_id: d7571a8910cfc6319c8acbba887fd33b, Nota: 5/5].\n\n3. **Pontualidade na Entrega**: A entrega dos produtos no prazo é um ponto positivo destacado por um cliente, que afirma que \"certamente comprará mais vezes\" devido a essa experiência [review_id: f8bc084927f01cb84fce083eb9aa5819, Nota: 5/5].\n\n4. **Atendimento Excelente**: A qualidade do atendimento é frequentemente mencionada, com um cliente afirmando que sempre teve \"um atendimento excelente\" ao comprar online [review_id: a644c23f94b9da0ca04ae1de4538e42a, Nota: 5/5].\n\n5. **Satisfação Geral**: A satisfação geral com os produtos adquiridos é reforçada por um cliente que já comprou vários itens e sempre ficou satisfeito [review_id: b4f0bb9b7de99c1cdb8572b7914449f9, Nota: 5/5].\n\nEsses pontos refletem uma experiência de compra positiva e consistente entre os clientes da loja.",
     "evidences": [
       {
-        "review_id": "4940d39efaa50e020312724f6a6e5efa",
-        "order_id": "1a1ef8dc595adbce0e5d75d806d69286",
+        "review_id": "382d855ffdd4f5e66594dbfb1566e96f",
+        "order_id": "f506fd1443d94ad16f25a94426fb8805",
         "review_score": 5,
-        "review_creation_date": "2018-06-08",
-        "relevance_score": 0.8712,
-        "matched_query": "elogios entrega rápida antes do prazo excelente qualidade recomendo",
-        "text": "super recomendo. produto de qualidade e eficiência na entrega. recebi muito antes do combinado. recomendo"
+        "review_creation_date": "2018-06-03",
+        "relevance_score": 0.6424,
+        "matched_query": "O que os clientes mais elogiam em suas experiências de compra?",
+        "text": "10. Cada vez que compro mais fico satisfeita parabéns pela honestidade com seus clientes 👏👏👏👏?"
       },
       {
-        "review_id": "5241fcad10d7b45a1761f1e1e1536faa",
-        "order_id": "0bcbcc3e0a09b3f6a9495de35f452616",
+        "review_id": "d7571a8910cfc6319c8acbba887fd33b",
+        "order_id": "e2047aaabab2869c1080a51c3e6b64ce",
         "review_score": 5,
-        "review_creation_date": "2018-07-07",
-        "relevance_score": 0.8594,
-        "matched_query": "elogios entrega rápida antes do prazo excelente qualidade recomendo",
-        "text": "super recomendo. chegou dentro do prazo e o produto é de excelente qualidade! Acabou as dores nas costas, estou dormindo muito bem!"
+        "review_creation_date": "2018-06-20",
+        "relevance_score": 0.622,
+        "matched_query": "O que os clientes mais elogiam em suas experiências de compra?",
+        "text": "Nota 10. Comprometimento e dedicação com o cliente.por isso indico pra quem está com alguma dúvida referente a loja;e sobre o produto atingiu perfeitamente as minhas perspectivas."
       },
       {
-        "review_id": "fe3db7c069d694bab50cc43463f91608",
-        "order_id": "2ca73e2ff9e3a186ad1e1ffb9b1d9c10",
+        "review_id": "f8bc084927f01cb84fce083eb9aa5819",
+        "order_id": "30f95ea478d6e49bbf813ec20e149cd2",
         "review_score": 5,
-        "review_creation_date": "2018-03-23",
-        "relevance_score": 0.8461,
-        "matched_query": "compra fácil chegou perfeito superou expectativas",
-        "text": "A compra foi realizada facilmente. A entrega foi efetuada muito antes do prazo dado. O produto já começou a ser usado e até o presente, sem problemas."
+        "review_creation_date": "2018-07-12",
+        "relevance_score": 0.6107,
+        "matched_query": "O que os clientes mais elogiam em suas experiências de compra?",
+        "text": "otimo. Produtos entregues no prazo , corretamente. Certamente comprarei mais vezes."
       },
       {
-        "review_id": "07b48dbc11677f5021dbefcaba550ed2",
-        "order_id": "0527142b56f235b4936a8573f33b020b",
+        "review_id": "a644c23f94b9da0ca04ae1de4538e42a",
+        "order_id": "5af267e0e81330ccb7db9a0e9bff5075",
         "review_score": 5,
-        "review_creation_date": "2017-07-26",
-        "relevance_score": 0.834,
-        "matched_query": "satisfação com o produto bom atendimento vendedor confiável",
-        "text": "O produto chegou bem antes do prazo estipulado, amei o atendimento! Super recomendo"
+        "review_creation_date": "2018-06-20",
+        "relevance_score": 0.6025,
+        "matched_query": "O que os clientes mais elogiam em suas experiências de compra?",
+        "text": "Nota 10. Gosto muito de comprar online pela lojas lannister sempre com um atendimento excelente nota 10.saudações."
       },
       {
-        "review_id": "8055e963f26f70c406ca517b2c2848e6",
-        "order_id": "9218ec94cd0d96e4c3e6b8c1504aa8dc",
+        "review_id": "b4f0bb9b7de99c1cdb8572b7914449f9",
+        "order_id": "5c9662fcebe9b346457f1a2b7465e1e6",
         "review_score": 5,
-        "review_creation_date": "2017-12-17",
-        "relevance_score": 0.8285,
-        "matched_query": "elogios entrega rápida antes do prazo excelente qualidade recomendo",
-        "text": "Produto de muito boa qualidade, chegou antes do prazo prometido"
+        "review_creation_date": "2018-04-24",
+        "relevance_score": 0.6013,
+        "matched_query": "O que os clientes mais elogiam em suas experiências de compra?",
+        "text": "Já comprei vários produtos, sempre fiquei satisfeito."
       }
     ]
   },
@@ -185,57 +185,57 @@
     "refusal_reason": null,
     "expanded_queries": [
       "Quais padrões podem ser identificados nas avaliações de clientes insatisfeitos?",
-      "padrões de insatisfação nota 1 decepção nunca mais compro",
-      "produto diferente da foto baixa qualidade atendimento sem retorno",
-      "demora na entrega falta de resposta e reembolso"
+      "Quais são os padrões que podem ser observados nas avaliações de clientes que estão insatisfeitos?",
+      "Que tipos de padrões podem ser detectados nas avaliações de clientes que expressam insatisfação?",
+      "Quais padrões se destacam nas avaliações feitas por clientes insatisfeitos?"
     ],
     "retrieved_count": 5,
-    "answer": "Nas avaliações de clientes insatisfeitos (nota 1/5), observam-se três padrões comportamentais e operacionais claros:\n\n1. **Quebra de expectativa visual e material (propaganda enganosa percebida):** Clientes relatam que o produto recebido possui acabamento ou material muito inferior ao exibido nas fotos (ex.: plástico em vez de tecido ou ausência de acolchoamento anunciado), gerando forte sentimento de decepção [review_id: 71f7323f884804c6d38bbcd658e07318, Nota: 1/5] [review_id: bdd3dd9b37833960a30cbdd2f2e7e888, Nota: 1/5].\n2. **Combinação de falha operacional com ausência de suporte pós-venda:** A insatisfação agrava-se quando, após receber um item com defeito ou atrasado, o consumidor tenta contato ou realiza a devolução e não obtém retorno nem ressarcimento da loja [review_id: b396ba75350276a6cc1993b6627dceea, Nota: 1/5] [review_id: 2d0d80576ee9bbab49cc108d9ec7a0fb, Nota: 1/5].\n3. **Perda de recorrência (churn declarado):** Relatos de demora somados a mau atendimento levam clientes recorrentes a declararem explicitamente que não voltarão a comprar no marketplace [review_id: a36150969fe6bd09ed011dd78aeb0189, Nota: 1/5].",
+    "answer": "Os padrões identificados nas avaliações de clientes insatisfeitos incluem:\n\n1. **Falta de Respeito com o Consumidor**: Vários clientes expressaram a sensação de desrespeito por parte da empresa. Por exemplo, um cliente afirmou que houve \"uma falta de respeito com o consumidor\" e que estava \"muito decepcionado\" [review_id: 5e7a3ac257327b889989c9ede7d35ff7, Nota: 1/5]. Outro cliente também mencionou \"Falta de respeito com cliente\" [review_id: 48dfb09da10ec86135fedeb9941364c2, Nota: 2/5].\n\n2. **Expectativas Não Atendidas**: Muitos clientes relataram que os produtos recebidos não corresponderam às suas expectativas. Um cliente comentou que o \"produto não atendeu as expectativas\" [review_id: 4a3ee26dbf183679868310fcb72ade3d, Nota: 1/5], enquanto outro mencionou que o \"produto recebido divergente ao comprado\" gerou frustração [review_id: db2ad68a772d476d92bae6d8c9a8eb18, Nota: 2/5].\n\n3. **Problemas com a Entrega**: Há uma preocupação significativa com a entrega dos produtos. Um cliente destacou que só poderia fazer uma avaliação após receber o produto, indicando insatisfação com a falta de informações ou atrasos [review_id: 5fa4fb44964b47967a99bef856ba418d, Nota: 1/5].\n\nEsses padrões refletem uma insatisfação geral com o atendimento ao cliente, a qualidade dos produtos e a eficiência na entrega, que são aspectos críticos para a experiência de compra em e-commerce.",
     "evidences": [
       {
-        "review_id": "a36150969fe6bd09ed011dd78aeb0189",
-        "order_id": "ef1b29b591d31d57c0d7337460dd83c9",
+        "review_id": "5e7a3ac257327b889989c9ede7d35ff7",
+        "order_id": "ca07593549f1816d26a572e06dc1eab6",
         "review_score": 1,
-        "review_creation_date": "2016-11-02",
-        "relevance_score": 0.854,
-        "matched_query": "padrões de insatisfação nota 1 decepção nunca mais compro",
-        "text": "Demora na entrega, detestei o atendimento e NUNCA mais compro. baratheon quando vendia por eles mesmos era bem melhor!"
+        "review_creation_date": "2017-03-25",
+        "relevance_score": 0.5045,
+        "matched_query": "Quais padrões se destacam nas avaliações feitas por clientes insatisfeitos?",
+        "text": "uma falta de respeito com o consumidor , estou muito decepcionado ."
       },
       {
-        "review_id": "b396ba75350276a6cc1993b6627dceea",
-        "order_id": "43050a51a257b17d51295e07650cb654",
+        "review_id": "5fa4fb44964b47967a99bef856ba418d",
+        "order_id": "88fb1f364095174f013123c8a3781c31",
         "review_score": 1,
-        "review_creation_date": "2018-08-23",
-        "relevance_score": 0.8412,
-        "matched_query": "produto diferente da foto baixa qualidade atendimento sem retorno",
-        "text": "Lamenetável... Boa Noite é lamentável, esta loja que tantas compras eu ja fiz e hoje não me da satisfação sequer de um relógio na importância de 50,00 reais ... um produto com defeito e até agora não me deu retor"
+        "review_creation_date": "2018-08-19",
+        "relevance_score": 0.5002,
+        "matched_query": "Quais são os padrões que podem ser observados nas avaliações de clientes que estão insatisfeitos?",
+        "text": "Só posso fazer avaliação depois que receber o meu produto!!! No momento todas as respostas são negativa"
       },
       {
-        "review_id": "bdd3dd9b37833960a30cbdd2f2e7e888",
-        "order_id": "ec9b762e44b1848fb62eab0de58e8abf",
-        "review_score": 1,
-        "review_creation_date": "2018-08-12",
-        "relevance_score": 0.8325,
-        "matched_query": "produto diferente da foto baixa qualidade atendimento sem retorno",
-        "text": "Produto diferente da ilus. Cortina de plástico, na foto parece tecido desenho diferente cores morta apagadas, uma verdadeira porcaria, não recomendo ninguém compra decepção total"
+        "review_id": "db2ad68a772d476d92bae6d8c9a8eb18",
+        "order_id": "67b1dc65d26c33458a65a0dc85c2d682",
+        "review_score": 2,
+        "review_creation_date": "2017-05-19",
+        "relevance_score": 0.4976,
+        "matched_query": "Que tipos de padrões podem ser detectados nas avaliações de clientes que expressam insatisfação?",
+        "text": "Produto recebido divergente ao comprado, gerando frustração e perda de oferta de outras opções analisadas."
       },
       {
-        "review_id": "71f7323f884804c6d38bbcd658e07318",
-        "order_id": "759fc48b9360c6710317b337b9e8a974",
+        "review_id": "4a3ee26dbf183679868310fcb72ade3d",
+        "order_id": "80d9047477928cfb4cf319c2d04004e6",
         "review_score": 1,
-        "review_creation_date": "2018-04-19",
-        "relevance_score": 0.8211,
-        "matched_query": "produto diferente da foto baixa qualidade atendimento sem retorno",
-        "text": "O produto veio diferente da q mostra na foto, não é de luxo, nem acolchoado como dizia."
+        "review_creation_date": "2018-05-01",
+        "relevance_score": 0.4816,
+        "matched_query": "Quais padrões se destacam nas avaliações feitas por clientes insatisfeitos?",
+        "text": "Produto não atendeu as expectativas"
       },
       {
-        "review_id": "2d0d80576ee9bbab49cc108d9ec7a0fb",
-        "order_id": "475f773f6c0d909e49b758adb2401e3a",
-        "review_score": 1,
-        "review_creation_date": "2017-02-21",
-        "relevance_score": 0.8098,
-        "matched_query": "demora na entrega falta de resposta e reembolso",
-        "text": "meu produto veio com defeito,devolvi conforme informado.postado no correio conforme indicado.e até hoje não recebi nenhuma notificação da empresa quanto a devolução e análise para ter meuressarcimento"
+        "review_id": "48dfb09da10ec86135fedeb9941364c2",
+        "order_id": "454ecfc568c4d964048236e91a42bda6",
+        "review_score": 2,
+        "review_creation_date": "2018-07-22",
+        "relevance_score": 0.4803,
+        "matched_query": "Quais padrões se destacam nas avaliações feitas por clientes insatisfeitos?",
+        "text": "Ruim. Falta de respeito com cliente"
       }
     ]
   },
@@ -245,47 +245,57 @@
     "refusal_reason": null,
     "expanded_queries": [
       "Quais avaliações sustentam a conclusão de que existem problemas recorrentes relacionados ao prazo de entrega?",
-      "evidências de atraso no prazo de entrega prazo máximo esgotado",
-      "não chegou no prazo estipulado mais de 30 dias sem receber"
+      "Quais são as avaliações que indicam problemas frequentes com o prazo de entrega?",
+      "Que avaliações apoiam a ideia de que há problemas constantes com o prazo de entrega?",
+      "Quais avaliações demonstram a existência de problemas repetidos em relação ao prazo de entrega?"
     ],
-    "retrieved_count": 4,
-    "answer": "A conclusão de que existem problemas recorrentes com o prazo de entrega é sustentada diretamente pelas seguintes avaliações rastreáveis na base:\n\n- **[review_id: 58044bca115705a48fe0e00a21390c54, Nota: 1/5]:** O cliente relata que o prazo máximo combinado já se esgotou completamente e o produto ainda não foi entregue (*\"o prazo máximo já se esgotou e ainda não recebi o produto\"*).\n- **[review_id: 6d06808638ec0701bccd70bc8d462c28, Nota: 1/5]:** Confirma que o pedido não chegou no prazo estipulado, comprometendo a programação de viagem da família (*\"O produto não chegou no prazo estipulado e causou transtorno\"*).\n- **[review_id: d7ea05bb4f9c77d606fd90b1a27e317d, Nota: 1/5]:** Documenta mais de um mês de atraso entre a compra (25/02) e a reclamação (29/03) sem recebimento na residência.\n- **[review_id: 185cb85ede91009d7a8e685687c037ee, Nota: 1/5]:** Registra espera de 30 dias sem entrega concluída (*\"fiz minha compra faz 30 dias e não recebi ainda meu produto\"*).",
+    "retrieved_count": 5,
+    "answer": "As avaliações indicam claramente que existem problemas recorrentes relacionados ao prazo de entrega. Abaixo estão os pontos sustentados pelas evidências:\n\n1. **Atrasos nas entregas**: Vários clientes mencionaram atrasos significativos nas entregas. Por exemplo, um cliente afirmou que \"Ultimamente estão atrasando muito as entregas\" [review_id: 7528a396f7625967f05cb09946286608, Nota: 1/5]. Outro cliente também relatou \"Muita demora na entrega\" [review_id: 72926e5236768ffc912764ca429d0e00, Nota: 1/5].\n\n2. **Desencontros nas entregas**: Um cliente destacou que houve \"muitos desencontros nas entregas de produtos\" [review_id: 949eca021ed60d00a2d2bda3cc686d4d, Nota: 1/5], o que sugere problemas na logística de entrega.\n\n3. **Prazo de entrega insatisfatório**: Outro cliente expressou que \"Deveria melhorar o prazo. Demora muito tempo para entregar a mercadoria\" [review_id: 2a1993cf1867bbfc58d8a8d8db314408, Nota: 2/5]. Além disso, um comentário adicional menciona que o \"prazo de entrega muito longo\" é uma preocupação [review_id: 18b759902d50cc4b835b7d65e1f293c1, Nota: 2/5].\n\nEssas evidências coletivas demonstram uma insatisfação generalizada dos clientes em relação ao prazo de entrega, indicando que este é um problema recorrente.",
     "evidences": [
       {
-        "review_id": "58044bca115705a48fe0e00a21390c54",
-        "order_id": "68e55ca79d04a79f20d4bfc0146f4b66",
+        "review_id": "7528a396f7625967f05cb09946286608",
+        "order_id": "1777854e00599d581f88f45af1432949",
         "review_score": 1,
-        "review_creation_date": "2018-04-08",
-        "relevance_score": 0.881,
-        "matched_query": "evidências de atraso no prazo de entrega prazo máximo esgotado",
-        "text": "Sempre compro pela Internet e a entrega ocorre antes do prazo combinado, que acredito ser o prazo máximo. No stark o prazo máximo já se esgotou e ainda não recebi o produto."
+        "review_creation_date": "2018-03-30",
+        "relevance_score": 0.6724,
+        "matched_query": "Que avaliações apoiam a ideia de que há problemas constantes com o prazo de entrega?",
+        "text": "Ultimamente estão atrasando muito as entregas"
       },
       {
-        "review_id": "6d06808638ec0701bccd70bc8d462c28",
-        "order_id": "97d2f8fe76f2f253b8291e17b5383884",
+        "review_id": "72926e5236768ffc912764ca429d0e00",
+        "order_id": "1d6df969542603d9f097e871bff9a9b7",
         "review_score": 1,
-        "review_creation_date": "2016-12-09",
-        "relevance_score": 0.8695,
-        "matched_query": "não chegou no prazo estipulado mais de 30 dias sem receber",
-        "text": "O produto não chegou no prazo estipulado e causou transtorno, pq programei a viagem de férias do meu filho, baseado no prazo. Moro na Bahia e ele em Cuiabá sozinho. Agora, a casa está vazia."
+        "review_creation_date": "2018-03-09",
+        "relevance_score": 0.6676,
+        "matched_query": "Quais são as avaliações que indicam problemas frequentes com o prazo de entrega?",
+        "text": "Muita demora na entrega"
       },
       {
-        "review_id": "d7ea05bb4f9c77d606fd90b1a27e317d",
-        "order_id": "bb5b0d8f3e9c964760c674f2aa2ae0cf",
+        "review_id": "949eca021ed60d00a2d2bda3cc686d4d",
+        "order_id": "d5d78aa1e1666a81b03bd8791c865fd3",
         "review_score": 1,
-        "review_creation_date": "2018-03-29",
-        "relevance_score": 0.852,
-        "matched_query": "não chegou no prazo estipulado mais de 30 dias sem receber",
-        "text": "Comprei o produto dia 25 de fevereiro e hoje dia 29 de marco não fora entregue na minha residência. Não sei se os correios desse Brasil e péssimo ou foi a própria loja que demorou postar."
+        "review_creation_date": "2017-06-07",
+        "relevance_score": 0.6434,
+        "matched_query": "Quais avaliações demonstram a existência de problemas repetidos em relação ao prazo de entrega?",
+        "text": "muitos desencontros nas entregas de produtos"
       },
       {
-        "review_id": "185cb85ede91009d7a8e685687c037ee",
-        "order_id": "2e5dc86c8c4aa663549caf5e31de840d",
-        "review_score": 1,
-        "review_creation_date": "2017-04-06",
-        "relevance_score": 0.8442,
-        "matched_query": "não chegou no prazo estipulado mais de 30 dias sem receber",
-        "text": "fiz minha compra faz 30 dias e não recebi ainda meu produto. Precisa melhorar nas entregas"
+        "review_id": "2a1993cf1867bbfc58d8a8d8db314408",
+        "order_id": "028e069ddb78a5a7179f1e6734e226c6",
+        "review_score": 2,
+        "review_creation_date": "2017-09-13",
+        "relevance_score": 0.6415,
+        "matched_query": "Que avaliações apoiam a ideia de que há problemas constantes com o prazo de entrega?",
+        "text": "Deveria melhorar o prazo. Demora muito tempo para entregar a mercadoria. O produto permaneceu alguns dias parado e já podia ter sido encaminhado."
+      },
+      {
+        "review_id": "18b759902d50cc4b835b7d65e1f293c1",
+        "order_id": "2b25bdbc985fdd953cced7c3fdf0a2fe",
+        "review_score": 2,
+        "review_creation_date": "2017-12-28",
+        "relevance_score": 0.6353,
+        "matched_query": "Quais são as avaliações que indicam problemas frequentes com o prazo de entrega?",
+        "text": "Prazo de entrega muito longo."
       }
     ]
   },
