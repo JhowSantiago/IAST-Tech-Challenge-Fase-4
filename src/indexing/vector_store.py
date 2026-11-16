@@ -2,11 +2,14 @@
 
 from __future__ import annotations
 
+import warnings
 from pathlib import Path
 from typing import Sequence
 
-from langchain_community.vectorstores import FAISS
-from langchain_community.vectorstores.utils import DistanceStrategy
+with warnings.catch_warnings():
+    warnings.simplefilter("ignore", DeprecationWarning)
+    from langchain_community.vectorstores import FAISS
+
 from langchain_core.documents import Document
 from langchain_core.embeddings import Embeddings
 
@@ -18,14 +21,13 @@ def build_faiss_index(
     embeddings: Embeddings,
     save_dir: Path | None = DEFAULT_FAISS_INDEX_DIR,
 ) -> FAISS:
-    """Cria o índice vetorial FAISS a partir dos documentos e persiste em disco."""
+    """Cria o índice vetorial FAISS a partir dos documentos com normalização L2 e persiste em disco."""
     if not documents:
         raise ValueError("A lista de documentos para indexação não pode estar vazia.")
 
     vector_store = FAISS.from_documents(
         list(documents),
         embeddings,
-        distance_strategy=DistanceStrategy.COSINE,
         normalize_L2=True,
     )
 
@@ -51,6 +53,5 @@ def load_faiss_index(
         str(index_dir),
         embeddings,
         allow_dangerous_deserialization=True,
-        distance_strategy=DistanceStrategy.COSINE,
         normalize_L2=True,
     )

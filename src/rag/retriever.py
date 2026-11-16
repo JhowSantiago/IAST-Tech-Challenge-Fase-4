@@ -2,10 +2,21 @@
 
 from __future__ import annotations
 
+import warnings
 from dataclasses import dataclass
 from typing import Dict, List, Sequence
-from langchain_community.vectorstores import FAISS
+
+with warnings.catch_warnings():
+    warnings.simplefilter("ignore", DeprecationWarning)
+    from langchain_community.vectorstores import FAISS
+
 from langchain_core.documents import Document
+
+
+def l2_distance_to_cosine_similarity(squared_l2_distance: float) -> float:
+    """Converte distância L2 quadrática de vetores normalizados em similaridade do cosseno [0, 1]."""
+    sim = 1.0 - (float(squared_l2_distance) / 2.0)
+    return max(0.0, min(1.0, sim))
 
 
 @dataclass(frozen=True)
@@ -42,9 +53,9 @@ def retrieve_relevant_reviews(
     best_by_id: Dict[str, RetrievedEvidence] = {}
 
     for query in queries:
-        results = vector_store.similarity_search_with_relevance_scores(query, k=top_k)
-        for doc, score in results:
-            numeric_score = float(score)
+        results = vector_store.similarity_search_with_score(query, k=top_k)
+        for doc, l2_dist in results:
+            numeric_score = l2_distance_to_cosine_similarity(float(l2_dist))
             if numeric_score < relevance_threshold:
                 continue
 
