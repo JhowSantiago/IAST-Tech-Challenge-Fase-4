@@ -1,0 +1,19 @@
+{
+  "source_file": "olist_order_reviews_dataset.csv",
+  "total_raw_rows": 100000,
+  "null_title_rows": 88285,
+  "null_message_rows": 58247,
+  "both_title_and_message_null_rows": 56518,
+  "non_empty_text_rows": 43463,
+  "informative_text_rows": 40017,
+  "removed_uninformative_or_short_rows": 3446,
+  "removed_duplicate_texts": 3441,
+  "final_indexed_reviews": 36576,
+  "score_distribution": {
+    "1": 8739,
+    "2": 2118,
+    "3": 3336,
+    "4": 5092,
+    "5": 17291
+  }
+}
