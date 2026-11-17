@@ -334,4 +334,6 @@ A suíte de testes valida a limpeza de textos, tratamento de valores ausentes, d
 
 **Documento Word de entrega:** [Entrega_Tech_Challenge_Fase4_Jonathan.docx](Entrega_Tech_Challenge_Fase4_Jonathan.docx)
 
+**Documento Pdf de entrega:** [Entrega_Tech_Challenge_Fase4_Jonathan.pdf](Entrega_Tech_Challenge_Fase4_Jonathan.pdf)
+
 **Pós-Tech FIAP — Inteligência Artificial (Fase 4)**
