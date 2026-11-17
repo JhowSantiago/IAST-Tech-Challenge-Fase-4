@@ -4,6 +4,8 @@
 
 Solução baseada em *Retrieval-Augmented Generation* (RAG) com `LangChain`, `FAISS` e `OpenAI` (`text-embedding-3-small` e `gpt-4o-mini`) para transformar as avaliações textuais não estruturadas de consumidores da Olist em uma base de conhecimento inteligente, auditável e fundamentada em evidências reais.
 
+**Repositório:** [github.com/JhowSantiago/IAST-Tech-Challenge-Fase-4](https://github.com/JhowSantiago/IAST-Tech-Challenge-Fase-4)
+
 ---
 
 ## Sumário
@@ -233,7 +235,10 @@ Para evitar alucinações quando não existirem avaliações relevantes ou quand
 ├── .gitignore                                  # Regras de exclusão do Git (.venv, .env, caches)
 ├── pytest.ini                                  # Configuração do Pytest
 ├── requirements.txt                            # Dependências do projeto
-└── README.md                                   # Documentação principal
+├── README.md                                   # Documentação principal
+├── Entrega_Tech_Challenge_Fase4_Jonathan.docx  # Documento executivo de entrega
+├── Voice-of-Customer-Intelligence-com-RAG.pptx # Slides da apresentação executiva
+└── Apresentação Voice-of-Customer-Intelligence-com-RAG.mp4 # Vídeo de apresentação (até 7 min)
 ```
 
 ---
@@ -312,13 +317,21 @@ A suíte de testes valida a limpeza de textos, tratamento de valores ausentes, d
 | [Auditoria de limpeza](reports/data-cleaning-audit.json) | Métricas exatas do processamento das 100.000 avaliações da Olist |
 | [Relatório de avaliação RAG](reports/rag-evaluation-examples.json) | Saídas estruturadas em JSON das 5 explorações de negócio e do teste de recusa |
 | [Git workflow](docs/git-workflow.md) | Padrão de commits atômicos em `main` |
+| [Slides da apresentação](Voice-of-Customer-Intelligence-com-RAG.pptx) | Apresentação executiva e técnica em 7 slides |
+| [Vídeo de apresentação](Apresenta%C3%A7%C3%A3o%20Voice-of-Customer-Intelligence-com-RAG.mp4) | Demonstração e explicação técnica de até 7 minutos |
 
 ---
 
-## 14. Autoria
+## 14. Autoria e apresentação
 
 | Papel | Nome |
 | :--- | :--- |
 | **Autoria** | Jonathan Santiago Relva |
+
+**Vídeo de apresentação (até 7 minutos):** [Apresentação Voice-of-Customer-Intelligence-com-RAG.mp4](Apresenta%C3%A7%C3%A3o%20Voice-of-Customer-Intelligence-com-RAG.mp4)
+
+**Slides da apresentação:** [Voice-of-Customer-Intelligence-com-RAG.pptx](Voice-of-Customer-Intelligence-com-RAG.pptx)
+
+**Documento Word de entrega:** [Entrega_Tech_Challenge_Fase4_Jonathan.docx](Entrega_Tech_Challenge_Fase4_Jonathan.docx)
 
 **Pós-Tech FIAP — Inteligência Artificial (Fase 4)**
